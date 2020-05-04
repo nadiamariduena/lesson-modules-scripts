@@ -28,7 +28,8 @@ const section = document.querySelector("#bread");
 //
 parsedData.forEach((obj) => {
   //   console.log(obj);
-  //With the line below i save myself a lot of time, if i dont use it, i will have to write obj.image, obj.ingredients etc, so here i just write it one time for all the variables(in this line) and that's all.
+  //With the line below i save myself a lot of time, if i dont use it, i will have to write obj.image, 
+  //obj.ingredients etc, so here i just write it one time for all the variables(in this line) and that's all.
   //
   //
   let { id, title, ingredients, image } = obj;
