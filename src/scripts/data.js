@@ -30,9 +30,11 @@ const recipes = [
 ];
 
 let data = JSON.stringify(recipes);
-// In this line i transform the content of the recipes, its transformed in a way i can export it, with the next line that is : export { data };, what i want to export ?
+// In this line i transform the content of the recipes, its transformed in a way i can export it, 
+//with the next line that is : export { data };, what i want to export ?
 //the content of data which is recipes.
 export { data };
 //
 //
-// After the last export line, go to the main js file, and import/ so to connect this data with the main JS file
+// After the last export line, go to the main js file, and import/ so to connect 
+//this data with the main JS file
